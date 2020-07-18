@@ -45,18 +45,18 @@ tsc -w // to compile the ts files in watch mode
 
 ## Typescript + ES6 features we'll be using in ReactJS
 
-| SR  | Feature                      | Language         |
-| --- | ---------------------------- | ---------------- |
-| 1   | Arraow functions             | ES6              |
-| 2   | Types                        | Typescript       |
-| 3   | Interface                    | Typescript       |
-| 4   | Class                        | ES6 + Typescript |
-| 5   | Destructuring                | ES6              |
-| 6   | Spread operator              | ES6              |
-| 7   | Import                       | ES6              |
-| 8   | Export                       | ES6              |
-| 9   | Generics                     | Typescript       |
-| 10  | Post-fix expression operator | Typescript       |
+| SR  | Feature                  | Language         |
+| --- | ------------------------ | ---------------- |
+| 1   | Arraow functions         | ES6              |
+| 2   | Types                    | Typescript       |
+| 3   | Interface                | Typescript       |
+| 4   | Class                    | ES6 + Typescript |
+| 5   | Destructuring            | ES6              |
+| 6   | Spread operator          | ES6              |
+| 7   | Import                   | ES6              |
+| 8   | Export                   | ES6              |
+| 9   | Generics                 | Typescript       |
+| 10  | Safe Navigation operator | Typescript       |
 
 ---
 

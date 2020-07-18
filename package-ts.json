@@ -5,7 +5,11 @@
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "build": "tsc -w",
+    "start:webpack": "webpack-dev-server",
+    "build:webpack;dev": "webpack",
+    "build:webpack:prod": "webpack --config webpack.config.prod.js"
   },
   "author": "",
   "license": "ISC",

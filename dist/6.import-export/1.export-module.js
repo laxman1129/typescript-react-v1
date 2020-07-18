@@ -1,5 +1,5 @@
 /**
- * Export is used to ecport the module to be imported in another modules
+ * Export is used to export the module to be imported in another modules
  *
  * export can be named or default
  */

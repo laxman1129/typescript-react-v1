@@ -1,10 +1,6 @@
 /**
  * import is used to import other exported modules
  */
-
-
-/*DeptModel is default export */
-/*addDeptName is named export */
 import DeptModel, { addDeptName } from './1.export-module.js';
 
 const operation = () => {
@@ -18,3 +14,5 @@ const operation = () => {
     console.log('netOps after ', netops);
 
 }
+
+operation();

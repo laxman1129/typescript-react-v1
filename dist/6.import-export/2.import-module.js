@@ -1,8 +1,6 @@
 /**
  * import is used to import other exported modules
  */
-/*DeptModel is default export */
-/*addDeptName is named export */
 import { addDeptName } from './1.export-module.js';
 var operation = function () {
     var netops = {
@@ -12,4 +10,5 @@ var operation = function () {
     netops = addDeptName('NetOps', netops);
     console.log('netOps after ', netops);
 };
+operation();
 //# sourceMappingURL=2.import-module.js.map
