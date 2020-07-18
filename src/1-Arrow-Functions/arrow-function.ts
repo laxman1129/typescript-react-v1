@@ -8,12 +8,12 @@
 
 /*classic js function */
 //@ts-ignore NOT RECOMMENDED, only for demonstration
-export function sum(a, b) {
+function sum(a, b) {
     return a + b;
 }
 
 /*arrow function with single line body */
-export const add = (a: number, b: number) => a + b;
+const add = (a: number, b: number) => a + b;
 
 /*arrow function with multiple line body */
 const subtract = (a: number, b: number) => {

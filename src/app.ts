@@ -1,10 +1,17 @@
-import { sum, add } from './1-Arrow-Functions/arrow-function';
 
-console.log('Hello world!!!');
-console.log('checking webpack!!');
-console.log('test');
+import DeptModel, { addDeptName } from './6.import-export/1.export-module'
 
+const operation = () => {
+    let netops: DeptModel = {
+        id: 1
+    }
+    console.log('netOps before ', netops);
 
-console.log(sum(10, 15));
-console.log(add(10, 15));
+    netops = addDeptName('NetOps', netops);
+
+    console.log('netOps after ', netops);
+
+}
+
+operation();
 

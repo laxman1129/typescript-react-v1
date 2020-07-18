@@ -1,7 +1,11 @@
-import { sum, add } from './1-Arrow-Functions/arrow-function';
-console.log('Hello world!!!');
-console.log('checking webpack!!');
-console.log('test');
-console.log(sum(10, 15));
-console.log(add(10, 15));
+import { addDeptName } from './6.import-export/1.export-module';
+var operation = function () {
+    var netops = {
+        id: 1
+    };
+    console.log('netOps before ', netops);
+    netops = addDeptName('NetOps', netops);
+    console.log('netOps after ', netops);
+};
+operation();
 //# sourceMappingURL=app.js.map

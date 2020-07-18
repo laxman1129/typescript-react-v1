@@ -8,8 +8,8 @@
     "start": "lite-server",
     "build": "tsc -w",
     "start:webpack": "webpack-dev-server",
-    "build:webpack;dev": "webpack",
-    "build:webpack:prod": "webpack --config webpack.config.prod.js"
+    "build:wdev": "webpack -w",
+    "build:wprod": "webpack --config webpack.config.prod.js"
   },
   "author": "",
   "license": "ISC",

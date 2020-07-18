@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Function expressions are best for object methods.
  * Arrow functions are best for callbacks or methods like map, reduce, or forEach.
@@ -6,11 +7,11 @@
  */
 /*classic js function */
 //@ts-ignore NOT RECOMMENDED, only for demonstration
-export function sum(a, b) {
+function sum(a, b) {
     return a + b;
 }
 /*arrow function with single line body */
-export var add = function (a, b) { return a + b; };
+var add = function (a, b) { return a + b; };
 /*arrow function with multiple line body */
 var subtract = function (a, b) {
     console.log('inputs are ', a, b);
